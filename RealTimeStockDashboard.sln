@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeStockDashboard", "RealTimeStockDashboard\RealTimeStockDashboard.csproj", "{FC9E25FD-A770-62A3-B856-DD94BE0FB9B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9E25FD-A770-62A3-B856-DD94BE0FB9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9E25FD-A770-62A3-B856-DD94BE0FB9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9E25FD-A770-62A3-B856-DD94BE0FB9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9E25FD-A770-62A3-B856-DD94BE0FB9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52D32533-8CF8-4A45-9304-AFDEC03AD99C}
+	EndGlobalSection
+EndGlobal

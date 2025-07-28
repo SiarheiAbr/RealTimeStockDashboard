@@ -1,0 +1,237 @@
+﻿body {
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    background: #f2f4f8;
+    margin: 0;
+    min-height: 100vh;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+main.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: #1a1a1a;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 420px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    font-size: 0.95rem;
+}
+
+th, td {
+    padding: 10px 16px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+}
+
+th {
+    background-color: #0a4c8c;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    font-size: 0.85rem;
+}
+
+td {
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #1a1a1a;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.symbol {
+    font-weight: 600;
+}
+
+/* Flash animations */
+/* Flash animations with background color */
+@keyframes flash-green {
+    0% {
+        background-color: #d4edda;
+    }
+
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes flash-red {
+    0% {
+        background-color: #f8d7da;
+    }
+
+    100% {
+        background-color: transparent;
+    }
+}
+
+.price-up {
+    animation: flash-green 1.2s ease-in-out;
+}
+
+.price-down {
+    animation: flash-red 1.2s ease-in-out;
+}
+
+.price {
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.arrow {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 0.95em;
+    transition: color 0.2s ease-in-out;
+}
+
+.arrow-up {
+    color: #28a745; /* green */
+}
+
+.arrow-down {
+    color: #dc3545; /* red */
+}
+
+header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.header-container p {
+    margin: 4px 0 0;
+    font-size: 0.95rem;
+    color: #e0e0e0;
+}
+
+.stock-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Style the table within the card */
+.stock-card table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.stock-card th {
+    background-color: #e6eef6; /* slightly stronger blue-gray */
+    color: #1a1a1a; /* darker text for contrast */
+    font-weight: 700; /* more emphasis */
+    padding: 14px 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #ccd6dd;
+}
+
+.stock-card thead tr {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.stock-card td {
+    padding: 12px;
+    vertical-align: middle;
+    border-bottom: 1px solid #eee;
+}
+
+/* Zebra striping */
+.stock-card tbody tr:nth-child(even) {
+    background-color: #f9fbfd;
+}
+
+#stock-table {
+    transition: opacity 0.5s ease-in-out;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #444;
+    padding: 16px 0;
+    background-color: #e9edf2; /* distinct from body background */
+    border-top: 1px solid #ccc;
+}
+
+.widgets-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.stock-widget {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.widget-header {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    color: #0a4c8c;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.stock-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.stock-card table {
+    width: 100%;
+    font-size: 0.95rem;
+    margin: 0;
+}

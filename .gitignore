@@ -1,0 +1,18 @@
+# Configs
+appsettings*.json
+secrets.json
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Libraries
+bin/
+obj/
+*.pdb
+*.user
+
+# Logs
+*.log
+*.tmp
