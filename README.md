@@ -1,5 +1,6 @@
 # Real-Time Stock Dashboard
 📈 Real-Time Stock Dashboard
+
 A responsive, multi-widget dashboard displaying live stock market data using WebSockets and real-time APIs.
 Built with .NET and SignalR, this application serves as an excellent starter template for financial applications, trading platforms, or any real-time data visualization needs.
 
