@@ -8,6 +8,8 @@ bin/
 obj/
 *.pdb
 *.user
+*.suo
+*.cache
 
 # Logs
 *.log
