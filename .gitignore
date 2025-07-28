@@ -1,7 +1,3 @@
-# Configs
-appsettings*.json
-secrets.json
-
 # IDE
 .vs/
 .vscode/
