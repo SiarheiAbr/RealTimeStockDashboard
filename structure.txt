@@ -1,0 +1,30 @@
+.
+|-- RealTimeStockDashboard
+|   |-- Extensions
+|   |   `-- HealthCheckExtensions.cs
+|   |-- Models
+|   |   |-- AlphaVantage
+|   |   `-- Finnhub
+|   |-- Properties
+|   |   `-- launchSettings.json
+|   |-- Services
+|   |   |-- AlphaVantageStockUpdateService.cs
+|   |   |-- FinnhubStockUpdateService.cs
+|   |   |-- MockStockUpdateService.cs
+|   |   `-- StockServiceHealthCheck.cs
+|   |-- wwwroot
+|   |   |-- app.js
+|   |   |-- footer.js
+|   |   |-- index.html
+|   |   `-- styles.css
+|   |-- Constants.cs
+|   |-- Program.cs
+|   |-- RealTimeStockDashboard.csproj
+|   |-- StockHub.cs
+|   `-- appsettings.json
+|-- README.md
+|-- RealTimeStockDashboard.sln
+|-- screenshot.png
+`-- structure.txt
+
+8 directories, 19 files
